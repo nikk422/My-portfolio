@@ -1,0 +1,152 @@
+*{
+    padding:0 1%;
+    margin: 0.2rem;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.navigation-container{
+    background-color: blueviolet;
+    border-bottom-left-radius: 1rem;
+    padding: 12px;
+
+}
+
+.name{
+    color: white;
+}
+
+.link0{
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+    text-align: right;
+}
+
+.link-active{
+    font-weight: bold;
+}
+.sec1{
+    background-color:rgb(243, 245, 247);
+    border-radius: 0.7rem;
+    margin: 1.4%;
+    padding: 0.9rem;
+
+}
+
+
+.nav.link{
+    text-align: right;
+}
+.hero{
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 9%;
+}
+.hero-img{
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+    height: auto;
+    
+}
+.blog-heading{
+    padding-top: 5rem;
+    margin-bottom: 0.5%;
+}
+.hero-heading{
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0rem;
+    color:palevioletred;
+}
+.heading-inv{
+    color:purple;
+}
+.section{
+    text-align: center;
+    padding: 1rem;
+}
+.link2{
+    text-decoration: none;
+    margin: 4rem 0;
+    background-color: blueviolet;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    color: white;
+}
+.link4{
+    text-decoration: none;
+    color:blueviolet;
+    padding: 0.5rem;
+    margin: 0rem;
+    border:1px solid blueviolet;
+    border-radius: 2rem;
+}
+.footer{
+    text-align: center;
+    background-color: purple;
+    padding: 2rem 5px;
+    color: white;
+    border-top-right-radius: 1rem;
+    margin-top: 1%;
+}
+.link3{
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+    padding-bottom: 1rem;
+}
+
+.ind{
+    text-align: center;
+    margin: 3rem;
+    color: blue;
+}
+.lang{
+    text-align: center;
+    margin: 0.5rem;
+}
+.b3{
+    margin: 2rem;
+    text-align: center;
+}
+.festival{
+    text-align: center;
+    margin: 0.5rem;
+}
+.food{
+    text-align: center;
+    margin: 0.5rem;
+}
+.about-indore{
+    text-align: center;
+    margin: 0.5rem;
+}
+.point{
+    margin: 2rem;
+}
+
+p{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.important{
+    text-align: center;
+    margin: 0.3rem;
+}
+
+.parents{
+    text-align: center;
+    margin: 2rem;
+    color: rgb(113, 15, 124);
+}
+
+
+
+
+
+
+
+
