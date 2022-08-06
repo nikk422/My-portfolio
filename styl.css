@@ -1,152 +1,207 @@
-*{
-    padding:0 1%;
-    margin: 0.2rem;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif ;
-}
-.navigation-container{
-    background-color: blueviolet;
-    border-bottom-left-radius: 1rem;
-    padding: 12px;
+    font-family: 'Libre Bodoni', serif;
 
 }
 
-.name{
+.navigation-container {
+    background-color: rgb(8 145 178);
+    padding: 0.2rem;
+}
+.nav-logo-contain{
+    display: flex;
+    gap:0.8rem;
+
+}
+.nikihl{
+    width:4rem;
+    height:4rem;
+    border-radius:50%;
+}
+
+.name {
     color: white;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
 }
 
-.link0{
+.nav-link {
     text-decoration: none;
     color: white;
     margin: 0.5rem;
     text-align: right;
+    font-size: 1.3rem;
 }
 
-.link-active{
+.link-active {
     font-weight: bold;
-}
-.sec1{
-    background-color:rgb(243, 245, 247);
-    border-radius: 0.7rem;
-    margin: 1.4%;
-    padding: 0.9rem;
-
+    text-decoration: underline;
 }
 
 
-.nav.link{
+.nav.link {
     text-align: right;
 }
-.hero{
-    padding: 2rem;
+
+.hero {
+    margin: 0.5rem;
     text-align: center;
     text-decoration: none;
-    margin-top: 9%;
 }
-.hero-img{
-    margin: 0 auto;
-    width: 60%;
-    display: block;
-    height: auto;
-    
+
+.hero-img {
+    width: 38%;
+
 }
-.blog-heading{
-    padding-top: 5rem;
-    margin-bottom: 0.5%;
-}
-.hero-heading{
+
+.hero-heading {
     text-align: center;
     padding-top: 2rem;
     margin: 0rem;
-    color:palevioletred;
+    color: rgb(179, 25, 76);
+
 }
-.heading-inv{
-    color:purple;
+
+.heading-inv {
+    color: rgb(8 145 178);
 }
-.section{
+
+.section {
     text-align: center;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
-.link2{
+
+.contain {
+    background-color: rgb(243, 245, 247);
+    border-radius: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    padding: 2rem;
+    border: 3px solid rgb(155, 23, 45);
+    width: 80%;
+}
+
+.project-link {
     text-decoration: none;
-    margin: 4rem 0;
-    background-color: blueviolet;
-    border-radius: 5rem;
+    background-color: rgb(14 116 144);
+    border-radius: 0.5rem;
     padding: 0.5rem;
     color: white;
+    font-weight: bold;
 }
-.link4{
+
+.blog-link {
     text-decoration: none;
-    color:blueviolet;
+    color: rgb(8 145 178);
     padding: 0.5rem;
-    margin: 0rem;
-    border:1px solid blueviolet;
-    border-radius: 2rem;
+    margin: 1rem;
+    border: 1px solid blueviolet;
+    border-radius: 0.5rem;
+    font-weight: bold;
+
 }
-.footer{
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    padding: 0.2rem;
+    border: 1px solid blueviolet;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+
+.blog-link:hover{
+    background-color:rgb(12, 65, 82);
+    color:white;
+}
+
+.project-link:hover{
+    background-color:rgb(58, 92, 119);
+
+}
+
+.pro-heading {
+    text-decoration: underline;
+}
+
+
+
+.footer {
     text-align: center;
-    background-color: purple;
-    padding: 2rem 5px;
+    background-color: rgb(14 116 144);
+    padding: 1rem;
     color: white;
     border-top-right-radius: 1rem;
     margin-top: 1%;
+    font-size: 1.5rem;
 }
-.link3{
+
+.footer-link {
     text-decoration: none;
     color: white;
-    margin: 2rem;
+    margin: 1rem;
     padding-bottom: 1rem;
 }
 
-.ind{
-    text-align: center;
-    margin: 3rem;
-    color: blue;
-}
-.lang{
-    text-align: center;
-    margin: 0.5rem;
-}
-.b3{
-    margin: 2rem;
-    text-align: center;
-}
-.festival{
-    text-align: center;
-    margin: 0.5rem;
-}
-.food{
-    text-align: center;
-    margin: 0.5rem;
-}
-.about-indore{
-    text-align: center;
-    margin: 0.5rem;
-}
-.point{
-    margin: 2rem;
+.social {
+    margin-bottom: 0.5rem;
 }
 
-p{
+p {
     text-align: center;
     margin: 1.5rem;
+    font-size: 1.2rem;
 }
 
-.important{
-    text-align: center;
-    margin: 0.3rem;
-}
+@media only screen and (min-width: 300px) and (max-width:455px) {
+    p{
+        font-size:0.9rem;
+    }
+    .project-link {
+        padding: 0.4rem;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .blog-link {
+        padding: 0.4rem;
+        margin: 0.5rem;
+    
+    }
+    .pro-heading{
+        font-size:1rem;
+    }
+    
+  }
 
-.parents{
-    text-align: center;
-    margin: 2rem;
-    color: rgb(113, 15, 124);
-}
+  @media only screen and (max-width:356px) {
+    p{
+        font-size:0.8rem;
+    }
+    .project-link {
+        padding: 0.3rem;
+        color: white;
+        font-weight: bold;
+        font-size: 0.8rem;
 
-
-
-
-
-
-
+    }
+    
+    .blog-link {
+        padding: 0.3rem;
+        margin: 0.1rem;
+        font-size: 0.8rem;
+    
+    }
+    .pro-heading{
+        font-size:0.83rem;
+    }
+    
+  }
 
